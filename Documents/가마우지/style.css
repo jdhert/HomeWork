@@ -1,0 +1,45 @@
+
+/* style.css */
+
+
+#menu a{
+    width:70px;
+    height:100px;
+    background:url('images/sns.jpg') no-repeat;
+    display:inline-block;
+}
+a#twitter{
+    width:70px;
+    height:100px;
+    background:url('images/sns.jpg') no-repeat;
+    display:inline-block;
+    background-position-x: -80px;
+    background-position-y: -80px;
+    
+}
+a#twitter:hover{
+    background-position-y: -100px;
+}
+.img{
+    position: relative;
+    background-image: url(./images/abc.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.img-cover{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-color: rgna(0, 0, 0, 0.4);
+    z-index:1;
+}
+.img .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:5rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
